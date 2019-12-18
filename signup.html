@@ -6,7 +6,9 @@
     <title>Imperial Customs</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap3.css">
     <link rel="stylesheet" type="text/css" href="css/signup.css">
-    <link rel="stylesheet" type="text/fonts" href="fonts/firasans/FiraSans-Black.ttf">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -47,36 +49,30 @@
                   <!--<img class="img img-responsive img-circle" src="images/login.gif">-->
                   <div class="form-group">
                     <label class="left">Full Name</label>
-                    <input type="text"  class="form-control" placeholder="Full Name">
+                    <input type="text"  class="form-control" placeholder="Full Name" required>
                   </div>
                   <div>
                     <label>Email</label>
-                    <input type="email" class="form-control" placeholder="email">
+                    <input type="email" class="form-control" placeholder="email" required>
                   </div>
                   <div>
-                    <label class="left">Tel</label>
-                    <input type="number" class="form-control">
+                    <label class="left">Phone No</label>
+                    <input type="number" class="form-control" placeholder="phone number" required>
                   </div>
-                  <div>
-                    <label>Zip Code</label>
-                    <input type="number" class="form-control">
-                  </div>
+                  
                   <div>
                     <label class="left">Password</label>
-                    <input type="password" class="form-control" placeholder="Password">
-                  </div>
-                  <div>
-                    <label> Re-enter Password</label>
-                    <input type="password" class="form-control" placeholder="Password">
-                  </div>
-                  <div class="checkbox left">
-                    <label><input type="checkbox">Male</label>
+                    <input type="password" class="form-control" placeholder="Password" required>
                   </div>
                   <div class="checkbox">
+                    <label><input type="checkbox">Male</label>
+
                     <label><input type="checkbox">Female</label>
                   </div>
-                  <button type="submit" class="btn btn-success btn-block">Create Account</button>
-                  <p>Already have an account? <a class="dont" href="#">Log In</a></p>
+                  
+                  <button type="submit" class="btn btn-block">Create Account</button>
+                  <br>
+                  <p>Already have an account? <a class="dont" href="login.html">Log In</a></p>
                 </form>
              </div>
              <div class="col-md-4 col-sm-4 col-xs-12"></div>
@@ -90,7 +86,8 @@
 
 
         
-        <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
-        <script src="js/bootstrap.js"></script>     
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+         <script src="js/bootstrap.js"></script>    
 </body>
 </html>

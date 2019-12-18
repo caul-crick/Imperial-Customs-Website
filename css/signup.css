@@ -1,12 +1,18 @@
-body{background:url('../img/gear.jpg')no-repeat;
-    background-position: center;
+body{background:url('../img/daniele-fantin-AMHN7vluqOI-unsplash.jpg')no-repeat;
     background-size: cover;
-    width: 100%;
+    background-position: center;
+    opacity: initial;
+    height: 100%;
     
 }
 
 html{
     height: 100%;
+}
+
+nav{
+    font-family: Tahoma, sans-serif, serif;
+    font-weight: bold;
 }
 
 nav :hover{
@@ -16,36 +22,42 @@ nav :hover{
 #log{
     
     padding: 60px 40px;
-    margin-top: 150px;
-    -webkit-box-shadow: -5px 2px 62px 8px rgba(228, 31, 31, 0.75);
-    -moz-box-shadow: -5px 2px 62px 8px rgba(228, 31, 31, 0.75);
-    box-shadow: -5px 2px 62px 8px rgba(228, 31, 31, 0.75);
+    margin-top: 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.8);
+    border-radius: 20px;
+    outline: none;
+    border: none;
 }
-
+   
 img{
     width: 150px;
     margin: auto;
 }
 
 h1{
-    color: crimson;
+    color: white;
     text-align: center;
-    font-weight: bolder;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-family: 'ubuntu', Tahoma, sans-serif;
     margin-top: -20px;
-}
-
-label{
-    font-size: 16px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: crimson;
     
 }
 
-button{
-    -webkit-box-shadow: -5px 2px 62px 8px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -5px 2px 62px 8px rgba(0, 0, 0, 0.75);
-    box-shadow: -5px 2px 62px 8px rgba(0, 0, 0, 0.75);
+label{
+    font-size: 13px;
+    font-family: 'ubuntu', tahoma, sans-serif;
+    color: white;
+    
+}
+
+.btn{
+    background-color: #D2691E;
+    border-color: #D2691E;
+    font-family: 'ubuntu', tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    
 }
 
 .forgot a{
@@ -55,18 +67,22 @@ button{
     
 }
 
-.dont{
-        
-
-}
-
 p{
-    color:white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-family: 'ubuntu', tahoma, sans-serif;
     text-align: center;
 }
 
-label{
-    float:left;
+:-ms-input-placeholder{
+    font-family: 'ubuntu';
+}
+
+.form-control{
+    border-radius: 10px;
+}
+
+a.dont{
+    color: white;
+    text-decoration: none;
 }
 
